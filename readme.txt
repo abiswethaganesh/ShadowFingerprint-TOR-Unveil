@@ -35,6 +35,23 @@ Probabilistic suspect ranking (not deanonymization)
 Export-ready forensic evidence report
 
 
+## How to Run
+
+1. Install dependencies
+   pip install -r requirements.txt
+
+2. Run backend pipeline
+   python backend/pcap_parser.py
+   python backend/node_correlation.py
+   python backend/entry_identification.py
+   python backend/guard_predictor.py
+   python backend/fusion_engine.py
+   python report_generator.py
+   python report_to_pdf.py
+
+3. Launch dashboard
+   streamlit run frontend/streamlit_app.py
+
 
 ⚠️ LEGAL & ETHICAL NOTE
 
