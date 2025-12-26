@@ -69,12 +69,13 @@ Automatically generated investigation report (PDF/JSON).
 
 3\. Launch dashboard
 
-&nbsp;  streamlit run frontend/streamlit\_app.py
+&nbsp;  python -m streamlit run streamlit_app.py
 
 
 ⚠️ **LEGAL \& ETHICAL NOTE**
 
 This system provides probabilistic forensic assistance only.
 It does not compromise TOR anonymity and must be used strictly under legal authorization.
+
 
 
