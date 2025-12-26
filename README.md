@@ -79,28 +79,20 @@ Export-ready forensic evidence report
 
 2\. Run backend pipeline
 
-&nbsp;  python backend/pcap\_parser.py
-
-&nbsp;  python backend/tor_collect.py
-
-&nbsp;  python backend/node\_correlation.py
-
-&nbsp;  python backend/entry\_identification.py
-
-&nbsp;  python backend/guard\_predictor.py
-
-&nbsp;  python backend/fusion\_engine.py
-
-&nbsp;  python report\_generator.py
-
-&nbsp;  python report\_to\_pdf.py
-
+python backend/pcap_parser.py
+python backend/tor_collect.py
+python backend/node_correlation.py
+python backend/entry_identification.py
+python backend/guard_predictor.py
+python backend/fusion_engine.py
+python backend/visualize_data.py
+python report_generator.py
+python report_to_pdf.py
 
 
 3\. Launch dashboard
 
-&nbsp;  streamlit run streamlit\_app.py
-
+python -m streamlit run streamlit_app.py
 
 
 
@@ -112,6 +104,7 @@ Export-ready forensic evidence report
 This system provides probabilistic forensic assistance only.
 
 It does not compromise TOR anonymity and must be used strictly under legal authorization.
+
 
 
 
