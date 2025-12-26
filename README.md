@@ -99,7 +99,7 @@ Export-ready forensic evidence report
 
 3\. Launch dashboard
 
-&nbsp;  streamlit run frontend/streamlit\_app.py
+&nbsp;  streamlit run streamlit\_app.py
 
 
 
@@ -112,6 +112,7 @@ Export-ready forensic evidence report
 This system provides probabilistic forensic assistance only.
 
 It does not compromise TOR anonymity and must be used strictly under legal authorization.
+
 
 
 
