@@ -48,8 +48,11 @@ Automatically generated investigation report (PDF/JSON).
 🎯 **EXPECTED OUTCOME**
 
 1.Working prototype for TOR activity correlation
+
 2.Visual dashboard for investigators
+
 3.Probabilistic suspect ranking (not deanonymization)
+
 4.Export-ready forensic evidence report
 
 **## How to Run**
@@ -91,6 +94,7 @@ Automatically generated investigation report (PDF/JSON).
 
 This system provides probabilistic forensic assistance only.
 It does not compromise TOR anonymity and must be used strictly under legal authorization.
+
 
 
 
