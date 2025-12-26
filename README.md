@@ -80,7 +80,8 @@ Export-ready forensic evidence report
 2\. Run backend pipeline
 
 &nbsp;  python backend/pcap\_parser.py
-        python backend/tor_collect.py
+
+&nbsp;  python backend/tor_collect.py
 &nbsp;  python backend/node\_correlation.py
 
 &nbsp;  python backend/entry\_identification.py
@@ -110,6 +111,7 @@ Export-ready forensic evidence report
 This system provides probabilistic forensic assistance only.
 
 It does not compromise TOR anonymity and must be used strictly under legal authorization.
+
 
 
 
