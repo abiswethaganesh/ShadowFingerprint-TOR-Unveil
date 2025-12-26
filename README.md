@@ -18,16 +18,22 @@ ShadowFingerprint captures these leaks and turns them into forensic clues.
 **CORE FEATURES**
 🛰️ PCAP Traffic Parsing
 Extracts packet timing, size patterns, TTL, and encrypted flow behavior from normal network logs.
+
 🌐 TOR Relay \& Exit Node Correlation
 Matches user-side traffic bursts with observed TOR exit relay activity using temporal clustering.
+
 🔍 Entry Node Likelihood Estimation
 Identifies users exhibiting consistent, automated, or bot-like access patterns.
+
 🛡️ Guard Node Stability Analysis
 Detects stable circuit reuse — a common behavior in TOR bots and long-running attacks.
+
 🔗 Multi-Signal Fusion Engine
 Combines all signals into a single probabilistic Confidence Score.
+
 📊 Visualization Dashboard
 Interactive Streamlit UI with path graphs, timelines, suspect ranking, and forensic confidence metrics.
+
 📄 Exportable Forensic Report
 Automatically generated investigation report (PDF/JSON).
 
@@ -76,6 +82,7 @@ Automatically generated investigation report (PDF/JSON).
 
 This system provides probabilistic forensic assistance only.
 It does not compromise TOR anonymity and must be used strictly under legal authorization.
+
 
 
 
