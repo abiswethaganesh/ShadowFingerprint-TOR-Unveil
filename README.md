@@ -8,11 +8,8 @@ The system does not attempt to break or decrypt TOR traffic.
 
 Instead, it leverages behavioral correlation between:
 
-Normal network PCAP logs (user-side activity)
-
-Public TOR relay and exit node metadata
-
-
+1.Normal network PCAP logs (user-side activity)
+2.Public TOR relay and exit node metadata
 
 By correlating timing patterns, traffic fingerprints, relay reuse behavior, and circuit stability, ShadowFingerprint computes a probabilistic confidence score indicating the most likely origin IPs behind TOR-based activity.
 
@@ -113,4 +110,5 @@ Export-ready forensic evidence report
 This system provides probabilistic forensic assistance only.
 
 It does not compromise TOR anonymity and must be used strictly under legal authorization.
+
 
